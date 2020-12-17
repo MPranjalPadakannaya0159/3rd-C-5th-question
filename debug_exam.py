@@ -1,3 +1,19 @@
+#5A)
+
+#3
+#1 2
+#2 2
+#8 7
+#2
+#3 3 
+#4 4
+
+#If key doesn't exist in data 1, the key-value pair is not added
+
+#5B)
+
+
+
 '''
 This function takes two arguments,
 data1 and data2, which contain
