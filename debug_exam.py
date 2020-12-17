@@ -10,7 +10,9 @@
 
 #If key doesn't exist in data 1, the key-value pair is not added
 
-#5B)
+#5B) Add to end of code
+     else:
+            data1[k]=data1.get(k,v2)
 
 
 
@@ -69,6 +71,8 @@ def uniqueUpdate(data1, data2):
             else:
                 # Add (k, v2) to data1
                 data1[k] = v2
+         else:
+            data1[k]=data1.get(k,v2)
     # After processing all (k, v2) in
     # data2, return the dictionary
     return dupKeys
